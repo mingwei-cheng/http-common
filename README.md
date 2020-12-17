@@ -1,6 +1,9 @@
 # 注解方式的Http请求
 ### 0.基础
-- 0.0.1 版本 基于springboot:2.2.4.RELEASE
+0.0.1 版本 
+- spring-boot-starter:2.2.4.RELEASE
+- spring-boot-starter-aop:2.2.4.RELEASE
+- spring-boot-starter-webflux:2.2.4.RELEASE
 ### 1. 支持类型
 - [GET]
 - [POST]
