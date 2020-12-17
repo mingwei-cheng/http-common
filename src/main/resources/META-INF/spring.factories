@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.cheng.http.aspect.HttpGetAspect,\
+cn.cheng.http.aspect.HttpHeadAspect,\
+cn.cheng.http.aspect.HttpPostAspect,\
+cn.cheng.http.aspect.HttpPutAspect,\
+cn.cheng.http.config.HttpAutoConfiguration,\
+cn.cheng.http.pojo.Config
