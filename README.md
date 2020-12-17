@@ -10,11 +10,13 @@
 - [HEAD]
 - [PUT]
 ### 2. 注解参数
-- url     请求地址
-- head    请求头
-- attr    请求参数（POST中不含）
-- cookies 请求的cookies
-- body    请求体（POST中含）
+| 名称 | 含义 | 类型 | 存在于 |
+| ------ | ------ |------| ------ |
+| url | 请求地址 | String | * |
+| head | 请求头 | String[] | * |
+| attr | 请求参数 | String[] | 除POST |
+| cookies | 请求地址 | String[] | POST |
+|  | 返回类型 | Mono\<String> | * |
 ### 3. 食用方式
 - 在HttpApplicationTests.java中，有一个简单的DEMO
 - 只需要在@Service类中的某个方法上，使用注解，成功则会返回调用的结果，<b>失败</b>则会执行该方法体里内容
