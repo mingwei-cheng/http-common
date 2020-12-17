@@ -13,9 +13,10 @@
 | 名称 | 含义 | 类型 | 格式 | 存在于 |
 | ------ | ------ | ------ | ------ | ------ |
 | url | 请求地址 | String | http://xxx.xxx.xxx | * |
-| head | 请求头 | String[] | key:value| | * |
-| attr | 请求参数 | String[] | key:value |除POST|
-| cookies | 请求地址 | String[] | json |POST|
+| heads | 请求头 | String[] | key:value| | * |
+| attrs | 请求参数 | String[] | key=value | 除POST |
+| cookies | 请求Cookies | String[] | key=value | * |
+| body | 请求体 | String[] | json | POST |
 |  | 返回类型 | Mono\<String> |  | * |
 ### 3. 食用方式
 - 在HttpApplicationTests.java中，有一个简单的DEMO
